@@ -1,7 +1,6 @@
 import { CONFIG } from "../config.js";
 export function createPartners() {
     const partners = CONFIG.PARTNERS;
-    // const partners = [
     //     {
     //         name: "Faculty of Computer Science and Engineering",
     //         logo: "/images/partners/finki.png",

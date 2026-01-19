@@ -7,7 +7,6 @@ import { createSchedule } from './components/schedule.js';
 import { createFAQ } from './components/faq.js';
 import { createRegister, initCountdown } from './components/register.js';
 import { createFooter } from './components/footer.js';
-import { CONFIG } from './config.js';
 
 // 1. Render all components into their placeholders
 const renderSite = () => {
