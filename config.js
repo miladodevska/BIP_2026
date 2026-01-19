@@ -84,31 +84,31 @@ export const CONFIG = {
     PARTNERS: [
         {
             name: "Faculty of Computer Science and Engineering",
-            logo: "/images/partners/finki.png",
+            logo: "../images/partners/finki.png",
             alt: "FCSE FINKI Logo",
             link: "https://finki.ukim.mk"
         },
         {
             name: "Ss. Cyril and Methodius University",
-            logo: "/images/partners/ukim logo.png",
+            logo: "../images/partners/ukim-logo.png",
             alt: "UKIM Logo",
             link: "https://ukim.edu.mk"
         },
         {
             name: "BIP Programme",
-            logo: "/images/partners/erasmus.png",
+            logo: "../images/partners/erasmus.png",
             alt: "Erasmus+ Logo",
             link: "https://erasmusbip.org/"
         },
         {
             name: "Kadir Has University",
-            logo: "/images/partners/kadir has.png",
+            logo: "../images/partners/kadir-has.png",
             alt: "Kadir Has University Logo",
             link: "https://www.khas.edu.tr/en/"
         },
         {
             name: "SRH University",
-            logo: "/images/partners/srh.png",
+            logo: "../images/partners/srh.png",
             alt: "SRH University Logo",
             link: "https://www.srh-university.de/en/"
         }
