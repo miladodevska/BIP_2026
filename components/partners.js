@@ -1,4 +1,12 @@
 import { CONFIG } from "../config.js";
+const safeExternalHref = (href) => {
+    const s = String(href).trim();
+
+    // Allow only http/https URLs
+    if (s.startsWith("https://") || s.startsWith("http://")) return s;
+
+    return "#";
+};
 export function createPartners() {
     const partners = CONFIG.PARTNERS;
     //     {
@@ -43,7 +51,7 @@ export function createPartners() {
 
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-12 items-center">
                 ${partners.map(partner => `
-                    <a href="${partner.link}" target="_blank" class="flex flex-col items-center group transition-all duration-300">
+                    <a href="${safeExternalHref(partner.link)}" target="_blank" rel="noopener noreferrer" class="flex flex-col items-center group transition-all duration-300">
                         <div class="h-16 w-full flex items-center justify-center opacity-50 group-hover:opacity-100 transition-all px-4">
                             <img src="${partner.logo}" alt="${partner.alt}" class="h-full w-auto object-contain">
                         </div>

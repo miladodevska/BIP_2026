@@ -1,4 +1,9 @@
 import { CONFIG } from '../config.js';
+const safeHref = (href) => {
+    const s = String(href).trim();
+    if (s.startsWith("#") || s.startsWith("/") || s.startsWith("./")) return s;
+    return "#";
+};
 export function createNavbar(activeName = 'Home') {
     const navItems = CONFIG.NAV_ITEMS;
     return `
@@ -18,14 +23,14 @@ export function createNavbar(activeName = 'Home') {
             
             <div class="hidden lg:flex items-center gap-8 text-sm font-semibold">
                 ${navItems.map(item => `
-                    <a href="${item.href}" 
+                    <a href="${safeHref(item.href)}" 
                        class="${item.name === activeName ? 'text-blue-600' : 'text-slate-500 hover:text-slate-900'} transition-colors">
                         ${item.name}
                     </a>
                 `).join('')}
             </div>
 
-            <a href="#register" class="bg-blue-600 text-white px-6 py-2.5 rounded-xl text-sm font-bold hover:bg-blue-700 transition-all shadow-md shadow-blue-100">
+            <a href="#register" rel="noopener noreferrer" class="bg-blue-600 text-white px-6 py-2.5 rounded-xl text-sm font-bold hover:bg-blue-700 transition-all shadow-md shadow-blue-100">
                 Register
             </a>
         </div>

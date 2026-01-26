@@ -15,7 +15,7 @@ export function createFAQ() {
             <div class="space-y-4">
                 ${questions.map(item => `
                     <div class="bg-white border border-slate-200 rounded-3xl overflow-hidden hover:border-blue-300 transition-colors">
-                        <button onclick="toggleFAQ(${item.id})" class="w-full text-left p-6 sm:p-8 flex items-center justify-between group">
+                        <button data-faq-toggle="${item.id}" type="button" class="w-full text-left p-6 sm:p-8 flex items-center justify-between group">
                             <span class="font-bold text-slate-900 text-lg">${item.question}</span>
                             <div id="faq-icon-${item.id}" class="w-8 h-8 rounded-full bg-slate-50 flex items-center justify-center group-hover:bg-blue-600 group-hover:text-white transition-all">
                                 <svg class="w-4 h-4 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
