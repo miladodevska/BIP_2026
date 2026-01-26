@@ -45,7 +45,7 @@ export function createSchedule() {
 
                     ${days.map((day, index) => `
                         <div class="border border-slate-100 rounded-[2rem] overflow-hidden bg-slate-50 hover:border-blue-200 transition-all">
-                            <button onclick="toggleDay('${day.id}')" class="w-full text-left p-8 flex items-center justify-between group">
+                            <button data-day-toggle="${day.id}" type="button" class="w-full text-left p-8 flex items-center justify-between group">
                                 <div>
                                     <span class="text-xs font-bold text-blue-600 uppercase tracking-widest">Day ${index + 1}</span>
                                     <h5 class="text-xl font-bold text-slate-900">${day.title}</h5>

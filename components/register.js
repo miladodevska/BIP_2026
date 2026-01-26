@@ -61,7 +61,7 @@ export function createRegister() {
                             <div class="absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-white via-blue-600 to-blue-600"></div>
                             <span class="text-xs font-bold text-blue-100 uppercase tracking-widest mb-2 relative">Price</span>
                             <span class="text-3xl font-extrabold leading-none mb-6 relative">Free of<br>Charge</span>
-                            <button class="relative w-full py-3.5 bg-white text-blue-600 font-bold uppercase text-xs tracking-widest rounded-xl hover:bg-blue-50 transition-all shadow-sm">
+                            <button type="button" class="relative w-full py-3.5 bg-white text-blue-600 font-bold uppercase text-xs tracking-widest rounded-xl hover:bg-blue-50 transition-all shadow-sm">
                                 Claim Pass Below
                             </button>
                             <p class="text-xs text-blue-100 mt-4 relative">by registering in the <br>form below.</p>
@@ -80,7 +80,12 @@ export function createRegister() {
                             class="w-full h-full bg-white" 
                             frameborder="0" 
                             marginheight="0" 
-                            marginwidth="0">
+                            marginwidth="0"
+                            loading="lazy"
+                            referrerpolicy="no-referrer"
+                            sandbox="allow-forms allow-scripts allow-same-origin"
+                            title="Event registration form"
+                        >
                             Loading…
                         </iframe>
                     </div>
@@ -96,7 +101,8 @@ export function initCountdown() {
 
     const x = setInterval(function() {
         const now = new Date().getTime();
-        const distance = countdownDate - now;
+        let distance = countdownDate - now;
+        if (distance < 0) distance = 0;
 
         const days = Math.floor(distance / (1000 * 60 * 60 * 24));
         const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));

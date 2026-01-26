@@ -24,31 +24,39 @@ const renderSite = () => {
     initCountdown();
 };
 
-// 3. Global Window Functions for Interactivity
-// These must be attached to the window object to be accessible from HTML onclick attributes
-window.toggleDay = function(dayId) {
-    const content = document.getElementById(`content-${dayId}`);
-    const icon = document.querySelector(`#icon-${dayId} svg`);
-    
-    content.classList.toggle('hidden');
-    if (content.classList.contains('hidden')) {
-        icon.style.transform = 'rotate(0deg)';
-    } else {
-        icon.style.transform = 'rotate(180deg)';
-    }
-};
+const attachHandlers = () => {
+    document.addEventListener("click", (e) => {
+        const faqBtn = e.target.closest("[data-faq-toggle]");
+        if (faqBtn) {
+            const id = faqBtn.getAttribute("data-faq-toggle");
+            const content = document.getElementById(`faq-content-${id}`);
+            const icon = document.querySelector(`#faq-icon-${id} svg`);
+            if (!content || !icon) return;
 
-window.toggleFAQ = function(id) {
-    const content = document.getElementById(`faq-content-${id}`);
-    const icon = document.querySelector(`#faq-icon-${id} svg`);
-    
-    content.classList.toggle('hidden');
-    if (content.classList.contains('hidden')) {
-        icon.style.transform = 'rotate(0deg)';
-    } else {
-        icon.style.transform = 'rotate(180deg)';
-    }
+            content.classList.toggle("hidden");
+            icon.style.transform = content.classList.contains("hidden")
+                ? "rotate(0deg)"
+                : "rotate(180deg)";
+            return;
+        }
+
+        const dayBtn = e.target.closest("[data-day-toggle]");
+        if (dayBtn) {
+            const dayId = dayBtn.getAttribute("data-day-toggle");
+            const content = document.getElementById(`content-${dayId}`);
+            const icon = document.querySelector(`#icon-${dayId} svg`);
+            if (!content || !icon) return;
+
+            content.classList.toggle("hidden");
+            icon.style.transform = content.classList.contains("hidden")
+                ? "rotate(0deg)"
+                : "rotate(180deg)";
+        }
+    });
 };
 
 // 4. Run the render on DOM load
-document.addEventListener('DOMContentLoaded', renderSite);
+document.addEventListener("DOMContentLoaded", () => {
+    renderSite();
+    attachHandlers();
+});
