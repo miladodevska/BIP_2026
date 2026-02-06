@@ -48,7 +48,7 @@ export function createVenue() {
                     </div>
                 </div>
 
-                <a href="https://map.finki.ukim.mk/" target="_blank" class="flex items-center justify-between p-6 bg-blue-600 rounded-2xl text-white group hover:bg-blue-700 transition-all shadow-xl shadow-blue-100">
+                <a href="https://map.finki.ukim.mk/" target="_blank" rel="noopener noreferrer" class="flex items-center justify-between p-6 bg-blue-600 rounded-2xl text-white group hover:bg-blue-700 transition-all shadow-xl shadow-blue-100">
                     <div>
                         <h5 class="font-bold">Navigate Campus</h5>
                         <p class="text-xs text-blue-100">Open interactive directions</p>
@@ -66,7 +66,9 @@ export function createVenue() {
                         style="border:0;" 
                         allowfullscreen="" 
                         loading="lazy" 
-                        referrerpolicy="no-referrer-when-downgrade">
+                        referrerpolicy="no-referrer"
+                        sandbox="allow-scripts allow-same-origin"
+                        title="Venue location map">
                     </iframe>
                 </div>
             </div>
