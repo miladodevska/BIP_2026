@@ -41,7 +41,7 @@ export function createFooter() {
                     <div class="w-fit">
                         <h4 class="font-bold text-slate-900 mb-6 uppercase text-xs tracking-widest lg:text-center">Site Map</h4>
                         <ul class="space-y-4 text-sm font-medium text-slate-500 lg:text-center">
-                        ${navItems.map(item => `<li><a href="${safeHref(item.href)}" rel="noopener noreferrer" class="hover:text-blue-600 transition-colors">${safeHref(item.name)}</a></li>`).join('')}
+                        ${navItems.map(item => `<li><a href="${safeHref(item.href)}" rel="noopener noreferrer" class="hover:text-blue-600 transition-colors">${item.name}</a></li>`).join('')}
                         </ul>
                     </div>
                 </div>
