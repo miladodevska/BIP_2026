@@ -7,7 +7,7 @@ export function createVenue() {
         <div class="mb-16">
             <h2 class="text-xs font-bold uppercase tracking-[0.2em] text-blue-600 mb-4">Venue & Logistics</h2>
             <h3 class="text-4xl font-extrabold text-slate-900 leading-tight">
-                How to <span class="text-blue-600">get there</span>
+                How to <span class="text-blue-600">get to the host</span>
             </h3>
         </div>
 
@@ -19,7 +19,7 @@ export function createVenue() {
                         <div class="w-10 h-10 bg-blue-600 rounded-xl flex items-center justify-center shadow-lg shadow-blue-100">
                             <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
                         </div>
-                        <h4 class="text-xl font-bold text-slate-900">Address</h4>
+                        <h4 class="text-xl font-bold text-slate-900">Address of <span class="text-blue-600">${CONFIG.EVENT.HOST}</span></h4>
                     </div>
                     <p class="text-slate-600 leading-relaxed font-medium">
                         ${CONFIG.EVENT.ADDRESS}

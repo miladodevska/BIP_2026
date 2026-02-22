@@ -43,7 +43,7 @@ export const CONFIG = {
             bio: "Specializing in virtual learning models and international collaboration.",
             image: "https://placehold.co/600x600/e2e8f0/1e293b?text=Expert+2"
         },
-  {
+        {
             name: "Prof. Partner Name",
             role: "Partner Expert",
             institution: "Partner University",
@@ -54,7 +54,7 @@ export const CONFIG = {
     SCHEDULE: [
         {
             id: 'day1',
-            title: 'Mastering Vulnerability Management',
+            title: 'Opening Ceremony',
             sessions: [
                 { time: '09:00', task: '[TBA]' },
             ]
@@ -94,12 +94,12 @@ export const CONFIG = {
             alt: "UKIM Logo",
             link: "https://ukim.edu.mk"
         },
-        {
-            name: "BIP Programme",
-            logo: "./images/partners/erasmus.png",
-            alt: "Erasmus+ Logo",
-            link: "https://erasmusbip.org/"
-        },
+        // {
+        //     name: "BIP Programme",
+        //     logo: "./images/partners/erasmus.png",
+        //     alt: "Erasmus+ Logo",
+        //     link: "https://erasmusbip.org/"
+        // },
         {
             name: "Kadir Has University",
             logo: "./images/partners/kadir-has.png",
@@ -111,7 +111,13 @@ export const CONFIG = {
             logo: "./images/partners/srh.png",
             alt: "SRH University Logo",
             link: "https://www.srh-university.de/en/"
-        }
+        },
+        {
+            name: "Southern Brittany University",
+            logo: "./images/partners/ubs.png",
+            alt: "Southern Brittany University Logo",
+            link: "https://www.univ-ubs.fr/en/"
+        },
     ],
 
     FAQ: [

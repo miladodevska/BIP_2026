@@ -69,7 +69,7 @@ export function createSchedule() {
 
                     <div class="bg-blue-600 rounded-[2.5rem] p-8 text-white shadow-xl shadow-blue-100">
                         <span class="text-xs font-bold text-blue-200 uppercase tracking-widest mb-2 block">Day 5: Finale</span>
-                        <h5 class="text-2xl font-bold mb-4">Additional BIP Activities & Certificates</h5>
+                        <h5 class="text-2xl font-bold mb-4">Wrap Up Session</h5>
                         <p class="text-blue-100 text-xs mb-6">Advanced research topics, industry lectures, and forming future teams.</p>
                         <div class="flex flex-wrap gap-2">
                             <span class="px-3 py-1 bg-blue-500 rounded-full text-[10px] font-bold uppercase tracking-wider border border-blue-400">Final Presentations</span>
