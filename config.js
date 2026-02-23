@@ -94,12 +94,6 @@ export const CONFIG = {
             alt: "UKIM Logo",
             link: "https://ukim.edu.mk"
         },
-        // {
-        //     name: "BIP Programme",
-        //     logo: "./images/partners/erasmus.png",
-        //     alt: "Erasmus+ Logo",
-        //     link: "https://erasmusbip.org/"
-        // },
         {
             name: "Kadir Has University",
             logo: "./images/partners/kadir-has.png",
@@ -113,7 +107,7 @@ export const CONFIG = {
             link: "https://www.srh-university.de/en/"
         },
         {
-            name: "Southern Brittany University",
+            name: "Université Bretagne Sud",
             logo: "./images/partners/ubs.png",
             alt: "Southern Brittany University Logo",
             link: "https://www.univ-ubs.fr/en/"
