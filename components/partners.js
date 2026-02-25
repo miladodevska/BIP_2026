@@ -17,7 +17,7 @@ export function createPartners() {
                 <div class="h-1.5 w-10 bg-blue-600 mx-auto rounded-full"></div>
             </div>
 
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-12 items-center">
+            <div class="flex flex-wrap justify-center gap-12 items-center">
                 ${partners.map(partner => `
                     <a href="${safeExternalHref(partner.link)}" target="_blank" rel="noopener noreferrer" class="flex flex-col items-center group transition-all duration-300">
                         <div class="h-16 w-full flex items-center justify-center opacity-50 group-hover:opacity-100 transition-all px-4">

@@ -30,70 +30,131 @@ export const CONFIG = {
     ],
     SPEAKERS: [
         {
-            name: "Dr. Researcher Name",
-            role: "Keynote Speaker",
-            institution: "FINKI, UKIM",
-            bio: "Expert in state-of-the-art cyber-defense and VR laboratory applications.",
-            image: "https://placehold.co/600x600/e2e8f0/1e293b?text=Expert+1"
+            name: "Prof. Guy Gogniat",
+            role: "online",
+            date: "April, 2026",
+            institution: "Université Bretagne Sud, France",
+            title: "Analysis of vulnerabilities in communication architectures in systems-on-chip with regard to fault attacks and countermeasure propositions for trusted IoT systems",
+            image: "images/speakers/guygogniat.png"
         },
         {
-            name: "Prof. Partner Name",
-            role: "Partner Expert",
-            institution: "Partner University",
-            bio: "Specializing in virtual learning models and international collaboration.",
-            image: "https://placehold.co/600x600/e2e8f0/1e293b?text=Expert+2"
+            name: "Prof. Mawloud Omar",
+            role: "online",
+            date: "April, 2026",
+            institution: "Université Bretagne Sud, France",
+            title: "Blinded Training: Machine Learning over Encrypted Data",
+            image: ""
         },
         {
-            name: "Prof. Partner Name",
-            role: "Partner Expert",
-            institution: "Partner University",
-            bio: "Specializing in virtual learning models and international collaboration.",
-            image: "https://placehold.co/600x600/e2e8f0/1e293b?text=Expert+2"
+            name: "Prof. Hasan Dag",
+            role: "online",
+            date: "April, 2026",
+            institution: "Kadir Has University, Turkey",
+            title: "From a Security Perspective: RAG and Prompt Engineering",
+            image: "images/speakers/hasandag.jpg"
         },
+        {
+            name: "Prof. Sedat Akleylek",
+            role: "online",
+            date: "April, 2026",
+            institution: "Kadir Has University, Turkey",
+            title: "",
+            image: "images/speakers/sedat.jpg"
+        },
+        {
+            name: "Prof. Danilo Gligoroski",
+            role: "online",
+            date: "April, 2026",
+            institution: " Norwegian University of Science and Technology",
+            title: "",
+            image: "images/speakers/danilo.jpg"
+        },
+        {
+            name: "Prof. Reiner Creutzburg",
+            role: "online",
+            date: "April, 2026",
+            institution: "SRH University, Germany",
+            title: "Digital Forensics For Cyber-Future: Technics, Challenges, and Emerging Trends",
+            image: "images/speakers/reiner.png"
+        },
+        {
+            name: "Bozidar Spirovski",
+            role: "on-site",
+            date: "Masterclass",
+            institution: "Blue dot and Sourcico",
+            title: "Cyber Everywhere All at Once – 4-day intensive, scenario-based cybersecurity workshop",
+            image: "images/speakers/bozidarspirovski.png"
+        }
+
     ],
     SCHEDULE: [
         {
             id: 'day1',
-            title: 'Opening Ceremony',
+            date: 'April 20, 2026',
+            title: 'Mastering Vulnerability Management',
             sessions: [
                 { time: '09:00', task: '[TBA]' },
             ]
         },
         {
             id: 'day2',
-            title: 'Incident Response & Risk Assessment',
+            date: 'April 21, 2026',
+            title: 'Disaster Recovery & Business Continuity',
             sessions: [
                 { time: '09:00', task: '[TBA]' },
             ]
         },
         {
             id: 'day3',
-            title: 'Security Governance & AI Integration',
+            date: 'April 22, 2026',
+            title: 'Incident Response & Risk Assessment',
             sessions: [
                 { time: '09:00', task: '[TBA]' },
             ]
         },
         {
             id: 'day4',
-            title: 'IoT Security Challenges',
+            date: 'April 23, 2026',
+            title: 'Security Governance & Audit Readiness',
             sessions: [
                 { time: '09:00', task: '[TBA]' },
             ]
         },
     ],
+
+        ONLINE: [
+        {
+            id: 'day1',
+            title: 'Opening',
+            sessions: [
+                { time: '09:00', task: '[TBA]' },
+            ]
+        },
+        {
+            id: 'day2',
+            title: 'TBA',
+            sessions: [
+                { time: '09:00', task: '[TBA]' },
+            ]
+        },
+        {
+            id: 'day3',
+            title: 'TBA',
+            sessions: [
+                { time: '09:00', task: '[TBA]' },
+            ]
+        },
+        {
+            id: 'day4',
+            title: 'TBA',
+            sessions: [
+                { time: '09:00', task: '[TBA]' },
+            ]
+        },
+    ],
+
+
     PARTNERS: [
-        {
-            name: "Faculty of Computer Science and Engineering",
-            logo: "./images/partners/finki.png",
-            alt: "FCSE FINKI Logo",
-            link: "https://finki.ukim.mk"
-        },
-        {
-            name: "Ss. Cyril and Methodius University",
-            logo: "./images/partners/ukim-logo.png",
-            alt: "UKIM Logo",
-            link: "https://ukim.edu.mk"
-        },
         {
             name: "Kadir Has University",
             logo: "./images/partners/kadir-has.png",
@@ -123,7 +184,7 @@ export const CONFIG = {
         {
             id: 2,
             question: "Who is eligible to participate?",
-            answer: "The programme is open to Master's students from cybersecurity, informatics, engineering, and related fields from partner institutions. The participants should have a strong interest in cybersecurity, AI, programming, and practical skills in cybersecurity contexts."
+            answer: "The programme is open to <strong>Master's students</strong> from cybersecurity, informatics, engineering, and related fields from partner institutions. The participants should have a strong interest in cybersecurity, AI, programming, and practical skills in cybersecurity contexts."
         },
         {
             id: 3,

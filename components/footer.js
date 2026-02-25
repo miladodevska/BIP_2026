@@ -36,8 +36,10 @@ export function createFooter() {
                         </a>
                     </div>
                     
-                    <div class="mt-4 bg-slate-50 rounded-2xl border border-slate-100 w-fit p-2">    
+                    <div class="mt-4 bg-slate-50 rounded-2xl w-fit p-2">
+                    <a href="https://erasmusbip.org/" target="_blank" rel="noopener noreferrer">    
                     <img src="./images/partners/cofunded.png" alt="Co-funded by the Erasmus+ programme of the European Union" class="h-20 w-auto object-contain">
+                    </a>
                     </div>
 
                 </div>
