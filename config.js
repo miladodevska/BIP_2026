@@ -90,7 +90,7 @@ export const CONFIG = {
     SCHEDULE: [
         {
             id: 'day1',
-            date: 'April 20, 2026',
+            date: '20 April, 2026',
             title: 'Mastering Vulnerability Management',
             sessions: [
                 { time: '09:00', task: '[TBA]' },
@@ -98,7 +98,7 @@ export const CONFIG = {
         },
         {
             id: 'day2',
-            date: 'April 21, 2026',
+            date: '21 April, 2026',
             title: 'Disaster Recovery & Business Continuity',
             sessions: [
                 { time: '09:00', task: '[TBA]' },
@@ -106,7 +106,7 @@ export const CONFIG = {
         },
         {
             id: 'day3',
-            date: 'April 22, 2026',
+            date: '22 April, 2026',
             title: 'Incident Response & Risk Assessment',
             sessions: [
                 { time: '09:00', task: '[TBA]' },
@@ -114,7 +114,7 @@ export const CONFIG = {
         },
         {
             id: 'day4',
-            date: 'April 23, 2026',
+            date: '23 April, 2026',
             title: 'Security Governance & Audit Readiness',
             sessions: [
                 { time: '09:00', task: '[TBA]' },
