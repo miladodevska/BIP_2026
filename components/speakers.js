@@ -28,7 +28,7 @@ export function createSpeakers() {
                         <!-- Image container: overflow-hidden only here to clip image/gradient -->
                         <div class="aspect-square w-full bg-slate-100 rounded-[2rem] overflow-hidden">
                             <img src="${speaker.image}" alt="${speaker.name}" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
-                            <div class="absolute inset-0 bg-gradient-to-t from-blue-600/60 via-blue-400/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>                    
+                            <div class="absolute inset-0 bg-gradient-to-t from-blue-600/60 rounded-[2rem] via-blue-400/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>                    
                         </div>
                     </div>
 

@@ -52,8 +52,7 @@ export function createSchedule() {
                                     </div>
 
                                   </div>
-                                  `;
-                                                        }).join('')}
+                                  `;}).join('')}
 
                     </div>
 
