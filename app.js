@@ -12,12 +12,12 @@ import { createFooter } from './components/footer.js';
 const renderSite = () => {
     document.getElementById('navbar-container').innerHTML = createNavbar('Home');
     document.getElementById('about-container').innerHTML = createAbout();
-    document.getElementById('partners-container').innerHTML = createPartners();
     document.getElementById('venue-container').innerHTML = createVenue();
     document.getElementById('speakers-container').innerHTML = createSpeakers();
     document.getElementById('schedule-container').innerHTML = createSchedule();
     document.getElementById('faq-container').innerHTML = createFAQ();
     document.getElementById('register-container').innerHTML = createRegister();
+    document.getElementById('partners-container').innerHTML = createPartners();
     document.getElementById('footer-container').innerHTML = createFooter();
 
     // 2. Initialize UI Logic after rendering

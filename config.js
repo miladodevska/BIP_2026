@@ -22,11 +22,11 @@ export const CONFIG = {
     NAV_ITEMS: [
         { name: 'Home', href: '#home' },
         { name: 'About', href: '#about' },
-        { name: 'Partners', href: '#partners' },
         { name: 'Venue', href: '#venue' },
         { name: 'Speakers', href: '#speakers' },
         { name: 'Schedule', href: '#schedule' },
-        { name: 'FAQ', href: '#faq' }
+        { name: 'FAQ', href: '#faq' },
+        { name: 'Partners', href: '#partners' }
     ],
     SPEAKERS: [
         {
@@ -62,14 +62,6 @@ export const CONFIG = {
             image: "images/speakers/sedat.jpg"
         },
         {
-            name: "Prof. Danilo Gligoroski",
-            role: "online",
-            date: "April, 2026",
-            institution: " Norwegian University of Science and Technology",
-            title: "",
-            image: "images/speakers/danilo.jpg"
-        },
-        {
             name: "Prof. Reiner Creutzburg",
             role: "online",
             date: "April, 2026",
@@ -84,7 +76,15 @@ export const CONFIG = {
             institution: "Blue dot and Sourcico",
             title: "Cyber Everywhere All at Once – 4-day intensive, scenario-based cybersecurity workshop",
             image: "images/speakers/bozidarspirovski.png"
-        }
+        },
+        {
+            name: "Prof. Danilo Gligoroski",
+            role: "on-site",
+            date: "April, 2026",
+            institution: "Norwegian University of Science and Technology",
+            title: "",
+            image: "images/speakers/danilo.jpg"
+        },
 
     ],
     SCHEDULE: [

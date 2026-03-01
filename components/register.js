@@ -1,7 +1,7 @@
 import { CONFIG } from '../config.js';
 export function createRegister() {
     return `
-    <section id="register" class="py-24 bg-slate-50 relative overflow-hidden border-t border-slate-200">
+    <section id="register" class="py-24 bg-white relative overflow-hidden border-t border-slate-200">
         <div class="max-w-4xl mx-auto px-6 relative z-10">
             <div class="text-center mb-16">
                 <h2 class="text-xs font-bold uppercase tracking-[0.2em] text-blue-600 mb-4">Register</h2>
@@ -91,6 +91,12 @@ export function createRegister() {
                     </div>
                 </div>
             </div>
+
+            <p class="text-center mt-12 text-slate-500 text-sm">
+                Have more questions? <a href="#footer" class="text-blue-600 font-bold hover:underline">Contact the organizing team</a>
+            </p>
+
+
         </div>
     </section>
     `;

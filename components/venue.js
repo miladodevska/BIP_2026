@@ -55,6 +55,27 @@ export function createVenue() {
                     </div>
                     <svg class="w-6 h-6 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
                 </a>
+
+                <h5 class="font-bold text-slate-900 mb-2">Recommended Accommodations:</h5>
+                <div class="flex">
+                <a href="https://tims.com.mk/" target="_blank" rel="noopener noreferrer" class="block">
+                    <h6 class="font-bold text-blue-600 mb-2">Tim's Appartments </h6>
+                </a>
+
+                <span class="text-blue-600"> • </span>
+
+                <a href="https://www.booking.com/Share-gVTnFVO" target="_blank" rel="noopener noreferrer" class="block">
+                    <h6 class="font-bold text-blue-600 mb-2"> Hotel Karposh </h6>
+                </a>  
+                
+                <span class="text-blue-600"> • </span>
+
+                <a href="https://www.booking.com/Share-l48wuN" target="_blank" rel="noopener noreferrer" class="block">
+                    <h6 class="font-bold text-blue-600 mb-2"> City Park Hotel</h6>
+                </a>
+                    
+                </div>
+
             </div>
 
            <div class="relative group h-[400px] lg:h-[500px]">

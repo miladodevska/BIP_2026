@@ -16,7 +16,7 @@ export function createSchedule() {
                        <div class="lg:col-span-1 space-y-4">
 
                         <div id="online" class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-100 text-slate-600 text-[10px] font-bold tracking-widest uppercase mb-6 border border-slate-200">
-                            Phase 01: Online Lectures
+                            Phase 01: Online Preparations
                         </div>
 
                         ${CONFIG.ONLINE.map((day, index) => {

@@ -27,10 +27,6 @@ export function createFAQ() {
                     </div>
                 `).join('')}
             </div>
-
-            <p class="text-center mt-12 text-slate-500 text-sm">
-                Have more questions? <a href="#footer" class="text-blue-600 font-bold hover:underline">Contact the organizing team</a>
-            </p>
         </div>
     </section>
     `;
