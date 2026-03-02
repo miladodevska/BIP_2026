@@ -13,10 +13,7 @@ const renderCard = (speaker) => `
   <div class="group bg-white p-6 rounded-[2.5rem] border border-slate-100 shadow-sm hover:shadow-xl hover:-translate-y-2 transition-all duration-300 flex flex-row items-center gap-6 h-full">
       
     <div class="relative w-32 h-32 flex-shrink-0 bg-slate-100 rounded-2xl overflow-hidden shadow-inner">
-        <img src="${speaker.image}" 
-             alt="${speaker.name}" 
-             class="w-full h-full object-cover object-center transition-transform duration-500 group-hover:scale-110"
-        >
+        <img src="${speaker.image}" alt="${speaker.name}" class="w-full h-full object-cover object-center transition-transform duration-500 group-hover:scale-110">
         <div class="absolute inset-0 bg-gradient-to-t from-blue-600/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
     </div>
 
@@ -64,7 +61,7 @@ const renderCard = (speaker) => `
         
       <div class="relative py-12 flex items-center">
           <div class="flex-grow border-t border-slate-200"></div>
-          <span class="text-xs font-bold uppercase tracking-[0.2em] text-blue-600 mb-2 mt-4 mx-6 block">
+          <span class="text-xs font-bold uppercase tracking-[0.2em] text-blue-600 mb-3 mt-4 mx-6 block">
               On-site Speakers
           </span>
           <div class="flex-grow border-t border-slate-200"></div>

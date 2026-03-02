@@ -13,46 +13,47 @@ export function createSchedule() {
             </div>
 
             <div class="grid lg:grid-cols-2 gap-12">
-                       <div class="lg:col-span-1 space-y-4">
+             <div class="lg:col-span-1 space-y-4">
 
-                        <div id="online" class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-100 text-slate-600 text-[10px] font-bold tracking-widest uppercase mb-6 border border-slate-200">
-                            Phase 01: Online Preparations
-                        </div>
+              <div id="online" class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-100 text-slate-600 text-[10px] font-bold tracking-widest uppercase mb-6 border border-slate-200">
+                  Phase 01: Online Preparations
+              </div>
 
-                        ${CONFIG.ONLINE.map((day, index) => {
-                            const id = `online-${index + 1}`;
-                            return `
-                                  <div class="border border-slate-100 rounded-[2rem] overflow-hidden bg-slate-50 hover:border-blue-200 transition-all">
+${CONFIG.ONLINE.map((day, index) => {
+    const id = `online-${index + 1}`;
+    return `
+        <div class="border border-blue-100 rounded-[2rem] overflow-hidden bg-blue-50 hover:bg-white hover:shadow-lg hover:shadow-blue-900/5 transition-all duration-300">
     
-                                    <button data-day-toggle="${id}" type="button" class="w-full text-left p-8 flex items-center justify-between group">
-                                      <div class="space-y-1">
-                                        <div class="flex items-center gap-3 text-xs uppercase tracking-widest">
-                                          <span class="font-bold text-blue-600">Presentation ${index + 1}</span>                                          
-                                        </div>
+          <button data-day-toggle="${id}" type="button" class="w-full text-left p-8 flex items-center justify-between group">
+            <div class="space-y-1">
+              <div class="flex items-center gap-3 text-xs uppercase tracking-widest">
+                <span class="font-bold text-blue-600">Presentation ${index + 1}</span>                                         
+              </div>
 
-                                        <h5 class="text-xl font-bold text-slate-900">${day.title}</h5>
-                                      </div>
+              <h5 class="text-xl font-bold text-slate-900">${day.title}</h5>
+            </div>
 
-                                      <div id="icon-${id}" class="w-10 h-10 rounded-full bg-white border border-slate-200 flex items-center justify-center group-hover:bg-blue-600 group-hover:text-white transition-all">
-                                        <svg class="w-5 h-5 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-                                        </svg>
-                                      </div>
-                                    </button>
+            <div id="icon-${id}" class="w-10 h-10 rounded-full bg-white border border-slate-200 flex items-center justify-center group-hover:bg-blue-600 group-hover:text-white transition-all">
+              <svg class="w-5 h-5 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+              </svg>
+            </div>
+          </button>
 
-                                    <div id="content-${id}" class="hidden px-8 pb-8 animate-fadeIn">
-                                      <div class="pt-4 border-t border-slate-200/60 space-y-4">
-                                        ${day.sessions.map(session => `
-                                          <div class="flex gap-4">
-                                            <span class="font-mono text-blue-600 font-bold">${session.time}</span>
-                                            <p class="text-sm text-slate-600">${session.task}</p>
-                                          </div>
-                                        `).join('')}
-                                      </div>
-                                    </div>
+          <div id="content-${id}" class="hidden px-8 pb-8 animate-fadeIn">
+            <div class="pt-4 border-t border-blue-200/40 space-y-4">
+              ${day.sessions.map(session => `
+                <div class="flex gap-4">
+                  <span class="font-mono text-blue-600 font-bold">${session.time}</span>
+                  <p class="text-sm text-slate-600">${session.task}</p>
+                </div>
+              `).join('')}
+            </div>
+          </div>
 
-                                  </div>
-                                  `;}).join('')}
+        </div>
+    `;
+}).join('')}
 
                     </div>
 
@@ -62,7 +63,7 @@ export function createSchedule() {
                         </div>
 
                     ${days.map((day, index) => `
-                          <div class="border border-slate-100 rounded-[2rem] overflow-hidden bg-slate-50 hover:border-blue-200 transition-all">
+                          <div class="border border-slate-100 rounded-[2rem] overflow-hidden bg-blue-500/50 hover:border-blue-200 transition-all">
                             <button data-day-toggle="${day.id}" type="button" class="w-full text-left p-8 flex items-center justify-between group">
                               <div class="space-y-1">
                                 <div class="flex items-center gap-3 text-xs uppercase tracking-widest">

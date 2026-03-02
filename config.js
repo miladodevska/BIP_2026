@@ -43,7 +43,7 @@ export const CONFIG = {
             date: "April, 2026",
             institution: "Université Bretagne Sud, France",
             title: "Blinded Training: Machine Learning over Encrypted Data",
-            image: ""
+            image: "images/speakers/omar.png"
         },
         {
             name: "Prof. Hasan Dag",
@@ -58,7 +58,7 @@ export const CONFIG = {
             role: "online",
             date: "April, 2026",
             institution: "University in Tartu, Estonia",
-            title: "",
+            title: "Lattice-based cryptographic schemes",
             image: "images/speakers/sedat.png"
         },
         {
@@ -74,7 +74,7 @@ export const CONFIG = {
             role: "online",
             date: "April, 2026",
             institution: "FCSE, Ss. Cyril and Methodius University in Skopje",
-            title: "",
+            title: "AI strengthening Cybersecurity, AI abused for Cyberattacks, and AI threatened by Cyberattacks",
             image: "images/speakers/ivan.png"
         },
         {
@@ -178,14 +178,14 @@ export const CONFIG = {
         },
         {
             id: 'day5',
-            title: '',
+            title: 'AI strengthening Cybersecurity, AI abused for Cyberattacks, and AI threatened by Cyberattacks',
             sessions: [
                 { time: '09:00', task: '[TBA]' },
             ]
         },
                 {
             id: 'day6',
-            title: '',
+            title: 'TBA ',
             sessions: [
                 { time: '09:00', task: '[TBA]' },
             ]

@@ -48,8 +48,8 @@ export function createAbout() {
             </svg></a>
         </div>
         <div>
-            <h3 class="text-lg font-bold mb-2 text-blue-900">Be a part of our <span class="uppercase text-white">Masterclass</span></h3>
-            <p class="text-sm text-blue-700/80 leading-relaxed">A 5 day intensive on-site workshop in Skopje, with hands-on training and expert-led sessions.</p>
+            <h3 class="text-lg font-bold mb-2 text-blue-50">Be a part of our <span class="uppercase text-white">Masterclass</span></h3>
+            <p class="text-sm text-blue-200 leading-relaxed">A 4 day intensive on-site workshop in Skopje, with hands-on training and expert-led sessions.</p>
         </div>
     </div>
 
@@ -61,7 +61,7 @@ export function createAbout() {
         </div>
         <div>
             <h4 class="text-xl font-bold mb-1 text-white">Join the <span class="font-bold">CHALLENGE</span></h4>
-            <p class="text-sm text-blue-100">Be a part of the <span class="font-bold">one-month challenge</span> to enhance your cybersecurity skills, at the end of your online training!</p>
+            <p class="text-sm text-blue-200">Be a part of the <span class="font-bold">challenge</span> to enhance your cybersecurity skills, at the end of your training!</p>
             <a href="#schedule" class="inline-block mt-4 text-white font-bold border-b border-white/40 hover:border-white transition-all">More info in the schedule</a>
         </div>
     </div>
