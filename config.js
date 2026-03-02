@@ -35,7 +35,7 @@ export const CONFIG = {
             date: "April, 2026",
             institution: "Université Bretagne Sud, France",
             title: "Analysis of vulnerabilities in communication architectures in systems-on-chip with regard to fault attacks and countermeasure propositions for trusted IoT systems",
-            image: "images/speakers/guygogniat.png"
+            image: "images/speakers/guy.png"
         },
         {
             name: "Prof. Mawloud Omar",
@@ -57,17 +57,25 @@ export const CONFIG = {
             name: "Prof. Sedat Akleylek",
             role: "online",
             date: "April, 2026",
-            institution: "Kadir Has University, Turkey",
+            institution: "University in Tartu, Estonia",
             title: "",
-            image: "images/speakers/sedat.jpg"
+            image: "images/speakers/sedat.png"
         },
         {
             name: "Prof. Reiner Creutzburg",
             role: "online",
             date: "April, 2026",
-            institution: "SRH University, Germany",
+            institution: "SRH Heidelberg University of Applied Sciences, Campus Berlin, Germany",
             title: "Digital Forensics For Cyber-Future: Technics, Challenges, and Emerging Trends",
             image: "images/speakers/reiner.png"
+        },
+        {
+            name: "Prof. Ivan Chorbev",
+            role: "online",
+            date: "April, 2026",
+            institution: "FCSE, Ss. Cyril and Methodius University in Skopje",
+            title: "",
+            image: "images/speakers/ivan.png"
         },
         {
             name: "Bozidar Spirovski",
@@ -75,16 +83,25 @@ export const CONFIG = {
             date: "Masterclass",
             institution: "Blue dot and Sourcico",
             title: "Cyber Everywhere All at Once – 4-day intensive, scenario-based cybersecurity workshop",
-            image: "images/speakers/bozidarspirovski.png"
+            image: "images/speakers/bozidarspirovski.jpg"
         },
         {
             name: "Prof. Danilo Gligoroski",
             role: "on-site",
             date: "April, 2026",
             institution: "Norwegian University of Science and Technology",
-            title: "",
+            title: "Building an app for doing encryption over LLM chat channels",
             image: "images/speakers/danilo.jpg"
         },
+        {
+            name: "Prof. Vesna Dimitrova",
+            role: "on-site",
+            date: "April, 2026",
+            institution: "FCSE, Ss. Cyril and Methodius University in Skopje",
+            title: "Cyber Future in practice: Challenges and Opportunities in the Era of AI and IoT",
+            image: "images/speakers/vesna.png"
+        },
+
 
     ],
     SCHEDULE: [
@@ -120,33 +137,55 @@ export const CONFIG = {
                 { time: '09:00', task: '[TBA]' },
             ]
         },
+        {
+            id: 'day5',
+            date: '24 April, 2026',
+            title: 'Final Presentations & Certificates Awarded',
+            sessions: [
+                { time: '09:00', task: '[TBA]' },
+            ]
+        },
     ],
 
         ONLINE: [
         {
             id: 'day1',
-            title: 'Opening',
+            title: 'Vulnerability Analysis and Countermeasures for SoC Communication in Trusted IoT',
             sessions: [
                 { time: '09:00', task: '[TBA]' },
             ]
         },
         {
-            id: 'day2',
-            title: 'TBA',
+            id: 'Presentation 2',
+            title: 'Blinded Training: ML over Encrypted Data',
             sessions: [
                 { time: '09:00', task: '[TBA]' },
             ]
         },
         {
             id: 'day3',
-            title: 'TBA',
+            title: 'From a Security Perspective: RAG and Prompt Engineering',
             sessions: [
                 { time: '09:00', task: '[TBA]' },
             ]
         },
         {
             id: 'day4',
-            title: 'TBA',
+            title: 'Digital Forensics For Cyber-Future: Technics, Challenges, and Emerging Trends',
+            sessions: [
+                { time: '09:00', task: '[TBA]' },
+            ]
+        },
+        {
+            id: 'day5',
+            title: '',
+            sessions: [
+                { time: '09:00', task: '[TBA]' },
+            ]
+        },
+                {
+            id: 'day6',
+            title: '',
             sessions: [
                 { time: '09:00', task: '[TBA]' },
             ]

@@ -12,7 +12,7 @@ export function createSchedule() {
                 </h3>
             </div>
 
-            <div class="grid lg:grid-cols-3 gap-12">
+            <div class="grid lg:grid-cols-2 gap-12">
                        <div class="lg:col-span-1 space-y-4">
 
                         <div id="online" class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-100 text-slate-600 text-[10px] font-bold tracking-widest uppercase mb-6 border border-slate-200">
@@ -27,7 +27,7 @@ export function createSchedule() {
                                     <button data-day-toggle="${id}" type="button" class="w-full text-left p-8 flex items-center justify-between group">
                                       <div class="space-y-1">
                                         <div class="flex items-center gap-3 text-xs uppercase tracking-widest">
-                                          <span class="font-bold text-blue-600">Day ${index + 1}</span>                                          
+                                          <span class="font-bold text-blue-600">Presentation ${index + 1}</span>                                          
                                         </div>
 
                                         <h5 class="text-xl font-bold text-slate-900">${day.title}</h5>
@@ -56,7 +56,7 @@ export function createSchedule() {
 
                     </div>
 
-                    <div id="onsite" class="lg:col-span-2 space-y-4">
+                    <div id="onsite" class="lg:col-span-1 space-y-4">
                         <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-50 text-blue-600 text-[10px] font-bold tracking-widest uppercase mb-6 border border-blue-100">
                             Phase 02: On-Site Workshop (Skopje)
                         </div>
@@ -95,12 +95,10 @@ export function createSchedule() {
                         `).join('')}
 
                     <div class="bg-blue-600 rounded-[2.5rem] p-8 text-white shadow-xl shadow-blue-100">
-                        <span class="text-xs font-bold text-blue-200 uppercase tracking-widest mb-2 block">Day 5: Finale    •   24 April, 2026</span>
-                        <h5 class="text-2xl font-bold mb-4">Additional BIP Activities</h5>
-                        <p class="text-blue-100 text-xs mb-6">Advanced research topics, industry lectures, and forming future teams.</p>
+                        <span class="text-xs font-bold text-blue-200 uppercase tracking-widest mb-2 block">Finale    •   24 April, 2026</span>
+                        <h5 class="text-2xl font-bold mb-4">Challenge wrap-up</h5>
                         <div class="flex flex-wrap gap-2">
-                            <span class="px-3 py-1 bg-blue-500 rounded-full text-[10px] font-bold uppercase tracking-wider border border-blue-400">Final Presentations</span>
-                            <span class="px-3 py-1 bg-blue-500 rounded-full text-[10px] font-bold uppercase tracking-wider border border-blue-400">Certificates Awarded</span>
+                            <span class="px-3 py-1 bg-blue-500 rounded-full text-[10px] font-bold uppercase tracking-wider border border-blue-400">Closing Ceremony</span>
                         </div>
                     </div>
                 </div>
