@@ -41,7 +41,7 @@ export const CONFIG = {
             name: "Prof. Mawloud Omar",
             role: "online",
             date: "April, 2026",
-            institution: "Université Bretagne Sud, France",
+            institution: "IRISA Laboratory, Université Bretagne Sud, France",
             title: "Blinded Training: Machine Learning over Encrypted Data",
             image: "images/speakers/omar.png"
         },
@@ -185,7 +185,7 @@ export const CONFIG = {
         },
                 {
             id: 'day6',
-            title: 'TBA ',
+            title: 'Lattice-based cryptographic schemes',
             sessions: [
                 { time: '09:00', task: '[TBA]' },
             ]
