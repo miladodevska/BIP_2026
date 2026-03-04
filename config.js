@@ -11,7 +11,7 @@ export const CONFIG = {
         MAP_URL: "https://goo.gl/maps/example"
     },
     CONTACT: {
-        EMAIL: "bip@finki.ukim.mk",
+        EMAIL: "bip.finki@finki.ukim.mk",
         HOURS: "Open 9:00 – 17:00, week days",
         SOCIALS: {
             LINKEDIN: "#",
