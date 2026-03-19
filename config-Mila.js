@@ -101,22 +101,8 @@ export const CONFIG = {
             title: "Cyber Future in practice: Challenges and Opportunities in the Era of AI and IoT",
             image: "images/speakers/vesna.png"
         },
-        {
-            name: "Ognen Plavevski",
-            role: "on-site",
-            date: "April, 2026",
-            institution: "HTEC",
-            title: "Identity as Infrastructure: The Self-Sovereign Identity Shift",
-            image: "images/speakers/ognen-nadica.png"
-        },
-        {
-            name: "Nadica Naumova",
-            role: "on-site",
-            date: "April, 2026",
-            institution: "HTEC",
-            title: "Cybersecurity: Beyond Compliance, Toward Resilience",
-            image: "images/speakers/ognen-nadica.png"
-        },
+
+
     ],
     SCHEDULE: [
         {
@@ -124,11 +110,7 @@ export const CONFIG = {
             date: '20 April, 2026',
             title: 'Mastering Vulnerability Management',
             sessions: [
-                { time: '09:00', task: 'Opening ', speaker: 'Prof. Vesna Dimitrova, Rector, Dean' },
-                { time: '09:45', task: 'Coffee Break', speaker: null },
-                { time: '10:00', task: 'Masterclass ', speaker: 'Bozidar Spirovski' },
-                { time: '12:00', task: 'Lunch Break', speaker: null },
-                { time: '13:00', task: 'Masterclass ', speaker: 'Bozidar Spirovski' },
+                { time: '09:00', task: '[TBA]' },
             ]
         },
         {
@@ -136,11 +118,7 @@ export const CONFIG = {
             date: '21 April, 2026',
             title: 'Disaster Recovery & Business Continuity',
             sessions: [
-                { time: '09:00', task: 'Masterclass ', speaker: 'Bozidar Spirovski' },
-                { time: '12:00', task: 'Lunch Break', speaker: null },
-                { time: '13:00', task: 'Masterclass ', speaker: 'Bozidar Spirovski' },
-                { time: '15:00', task: 'Coffee Break', speaker: null },
-                { time: '15:30', task: 'Working in teams', speaker: null },
+                { time: '09:00', task: '[TBA]' },
             ]
         },
         {
@@ -148,12 +126,7 @@ export const CONFIG = {
             date: '22 April, 2026',
             title: 'Incident Response & Risk Assessment',
             sessions: [
-                { time: '09:00', task: 'Masterclass ', speaker: 'Bozidar Spirovski' },
-                { time: '12:00', task: 'Lunch Break', speaker: null },
-                { time: '13:00', task: 'Masterclass ', speaker: 'Bozidar Spirovski' },
-                { time: '15:00', task: 'Coffee Break', speaker: null },
-                { time: '15:30', task: 'Masterclass ', speaker: 'Bozidar Spirovski' },
-                { time: '20:00', task: 'Social Event at Netaville', speaker: null },
+                { time: '09:00', task: '[TBA]' },
             ]
         },
         {
@@ -161,11 +134,7 @@ export const CONFIG = {
             date: '23 April, 2026',
             title: 'Security Governance & Audit Readiness',
             sessions: [
-                { time: '09:00', task: 'Masterclass ', speaker: 'Bozidar Spirovski' },
-                { time: '12:00', task: 'Lunch Break', speaker: null },
-                { time: '13:00', task: 'Masterclass ', speaker: 'Bozidar Spirovski' },
-                { time: '15:00', task: 'Coffee Break', speaker: null },
-                { time: '15:30', task: 'Masterclass ', speaker: 'Bozidar Spirovski' },
+                { time: '09:00', task: '[TBA]' },
             ]
         },
         {
@@ -173,10 +142,7 @@ export const CONFIG = {
             date: '24 April, 2026',
             title: 'Final Presentations & Certificates Awarded',
             sessions: [
-                { time: '09:00', task: 'Building an app for doing encryption over LLM chat channels ', speaker: 'Prof. Danilo Gligoroski' },
-                { time: '11:00', task: 'Coffee Break', speaker: null },
-                { time: '11:30', task: 'Industry Talk ', speaker: 'Ognen Plavevski & Nadica Naumova' },
-                { time: '13:00', task: 'Lunch + Skopje Sightseeing Tour', speaker: null },                
+                { time: '09:00', task: '[TBA]' },
             ]
         },
     ],
@@ -184,36 +150,31 @@ export const CONFIG = {
         ONLINE: [
         {
             id: 'day1',
-            title: '26 March, 2026',
+            title: 'Vulnerability Analysis and Countermeasures for SoC Communication in Trusted IoT',
             sessions: [
-                { time: '15:00', task: 'Opening ', speaker: 'Prof. Vesna Dimitrova' },
-                { time: '15:30', task: 'From a Security Perspective: RAG and Prompt Engineering ', speaker: 'Prof. Hasan Dag' },
+                { time: '15:00', task: 'Opening - Prof. Vesna Dimitrova' },
+                { time: '15:30', task: 'Prof. Hasan Dag' },
             ]
         },
         {
             id: 'Presentation 2',
-            title: '02 April, 2026',
+            title: 'Blinded Training: ML over Encrypted Data',
             sessions: [
-                { time: '15:00', task: 'Analysis of vulnerabilities in communication architectures in systems-on-chip with regard to fault attacks and countermeasure propositions for trusted IoT systems ', speaker: 'Prof. Guy Gogniat' },
-                { time: '16:30', task: 'Break' },
-                { time: '17:00', task: 'Lattice-based cryptographic schemes ', speaker: 'Prof. Sedat Akleylek' },
+                { time: '09:00', task: '[TBA]' },
             ]
         },
         {
             id: 'day3',
-            title: '09 April, 2026',
+            title: 'From a Security Perspective: RAG and Prompt Engineering',
             sessions: [
-                { time: '15:00', task: 'AI strengthening Cybersecurity, AI abused for Cyberattacks, and AI threatened by Cyberattacks ', speaker: 'Prof. Ivan Chorbev' },
-                { time: '16:30', task: 'Break' },
-                { time: '17:00', task: 'Digital Forensics For Cyber-Future: Technics, Challenges, and Emerging Trends ', speaker: 'Prof. Reiner Creutzburg' },
+                { time: '09:00', task: '[TBA]' },
             ]
         },
         {
             id: 'day4',
-            title: '17 April, 2026',
+            title: 'Digital Forensics For Cyber-Future: Technics, Challenges, and Emerging Trends',
             sessions: [
-                { time: '15:00', task: 'Blinded Training: Machine Learning over Encrypted Data', speaker: 'Prof. Mawloud Omar' },
-                { time: '16:30', task: 'Closing of Online Sessions' },
+                { time: '09:00', task: '[TBA]' },
             ]
         },
         // {
@@ -229,7 +190,7 @@ export const CONFIG = {
         //     sessions: [
         //         { time: '09:00', task: '[TBA]' },
         //     ]
-        // },
+        },
     ],
 
 

@@ -45,7 +45,10 @@ ${CONFIG.ONLINE.map((day, index) => {
               ${day.sessions.map(session => `
                 <div class="flex gap-4">
                   <span class="font-mono text-blue-600 font-bold">${session.time}</span>
-                  <p class="text-sm text-slate-600">${session.task}</p>
+                  <p class="text-sm">
+                  <span class="text-slate-600 font-bold">${session.task}</span>
+                  ${session.speaker ? `<span class="text-blue-600 font-normal"> - ${session.speaker}</span>` : ''}
+                  </p>
                 </div>
               `).join('')}
             </div>
@@ -87,7 +90,9 @@ ${CONFIG.ONLINE.map((day, index) => {
                                 ${day.sessions.map(session => `
                                   <div class="flex gap-4">
                                     <span class="font-mono text-blue-600 font-bold">${session.time}</span>
-                                    <p class="text-sm text-slate-600">${session.task}</p>
+                                    <p class="text-sm text-slate-50">${session.task}
+                                    <span class="text-blue-600 font-normal">${session.speaker ? ` - ${session.speaker}` : ''}</span>
+                                    </p>
                                   </div>
                                 `).join('')}
                               </div>
