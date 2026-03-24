@@ -27,10 +27,10 @@ ${CONFIG.ONLINE.map((day, index) => {
           <button data-day-toggle="${id}" type="button" class="w-full text-left p-8 flex items-center justify-between group">
             <div class="space-y-1">
               <div class="flex items-center gap-3 text-xs uppercase tracking-widest">
-                <span class="font-bold text-blue-600">Presentation ${index + 1}</span>                                         
+                <span class="font-bold text-blue-600">${day.date}</span>                                         
               </div>
 
-              <h5 class="text-xl font-bold text-slate-900">${day.title}</h5>
+              <h5 class="text-xl font-bold text-slate-900">Day ${index + 1}: ${day.title}</h5>
             </div>
 
             <div id="icon-${id}" class="w-10 h-10 rounded-full bg-white border border-slate-200 flex items-center justify-center group-hover:bg-blue-600 group-hover:text-white transition-all">

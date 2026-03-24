@@ -32,7 +32,7 @@ export const CONFIG = {
         {
             name: "Prof. Guy Gogniat",
             role: "online",
-            date: "April, 2026",
+            date: "02 April, 2026",
             institution: "Université Bretagne Sud, France",
             title: "Analysis of vulnerabilities in communication architectures in systems-on-chip with regard to fault attacks and countermeasure propositions for trusted IoT systems",
             image: "images/speakers/guy.png"
@@ -40,7 +40,7 @@ export const CONFIG = {
         {
             name: "Prof. Mawloud Omar",
             role: "online",
-            date: "April, 2026",
+            date: "17 April, 2026",
             institution: "IRISA Laboratory, Université Bretagne Sud, France",
             title: "Blinded Training: Machine Learning over Encrypted Data",
             image: "images/speakers/omar.png"
@@ -48,7 +48,7 @@ export const CONFIG = {
         {
             name: "Prof. Hasan Dag",
             role: "online",
-            date: "April, 2026",
+            date: "17 April, 2026",
             institution: "Kadir Has University, Turkey",
             title: "From a Security Perspective: RAG and Prompt Engineering",
             image: "images/speakers/hasandag.jpg"
@@ -56,7 +56,7 @@ export const CONFIG = {
         {
             name: "Prof. Sedat Akleylek",
             role: "online",
-            date: "April, 2026",
+            date: "02 April, 2026",
             institution: "University in Tartu, Estonia",
             title: "Lattice-based cryptographic schemes",
             image: "images/speakers/sedat.png"
@@ -64,7 +64,7 @@ export const CONFIG = {
         {
             name: "Prof. Reiner Creutzburg",
             role: "online",
-            date: "April, 2026",
+            date: "09 April, 2026",
             institution: "SRH Heidelberg University of Applied Sciences, Campus Berlin, Germany",
             title: "Digital Forensics For Cyber-Future: Technics, Challenges, and Emerging Trends",
             image: "images/speakers/reiner.png"
@@ -72,7 +72,7 @@ export const CONFIG = {
         {
             name: "Prof. Ivan Chorbev",
             role: "online",
-            date: "April, 2026",
+            date: "09 April, 2026",
             institution: "FCSE, Ss. Cyril and Methodius University in Skopje",
             title: "AI strengthening Cybersecurity, AI abused for Cyberattacks, and AI threatened by Cyberattacks",
             image: "images/speakers/ivan.png"
@@ -88,7 +88,7 @@ export const CONFIG = {
         {
             name: "Prof. Danilo Gligoroski",
             role: "on-site",
-            date: "April, 2026",
+            date: "24 April, 2026",
             institution: "Norwegian University of Science and Technology",
             title: "Building an app for doing encryption over LLM chat channels",
             image: "images/speakers/danilo.jpg"
@@ -96,7 +96,7 @@ export const CONFIG = {
         {
             name: "Prof. Vesna Dimitrova",
             role: "on-site",
-            date: "April, 2026",
+            date: "02 April & 24 April, 2026",
             institution: "FCSE, Ss. Cyril and Methodius University in Skopje",
             title: "Cyber Future in practice: Challenges and Opportunities in the Era of AI and IoT",
             image: "images/speakers/vesna.png"
@@ -104,19 +104,27 @@ export const CONFIG = {
         {
             name: "Ognen Plavevski",
             role: "on-site",
-            date: "April, 2026",
+            date: "24 April, 2026",
             institution: "HTEC",
             title: "Identity as Infrastructure: The Self-Sovereign Identity Shift",
-            image: "images/speakers/ognen-nadica.png"
+            image: "images/speakers/ognen.png"
         },
         {
             name: "Nadica Naumova",
             role: "on-site",
-            date: "April, 2026",
+            date: "24 April, 2026",
             institution: "HTEC",
             title: "Cybersecurity: Beyond Compliance, Toward Resilience",
-            image: "images/speakers/ognen-nadica.png"
+            image: "images/speakers/nadica.png"
         },
+        {
+            name: "Romana Stojceska",
+            role: "on-site",
+            date: "Masterclass",
+            institution: "BeyondMachines",
+            title: "Cyber Everywhere All at Once – 4-day intensive, scenario-based cybersecurity workshop",
+            image: "images/speakers/romana.png"
+        }
     ],
     SCHEDULE: [
         {
@@ -125,8 +133,9 @@ export const CONFIG = {
             title: 'Mastering Vulnerability Management',
             sessions: [
                 { time: '09:00', task: 'Opening ', speaker: 'Prof. Vesna Dimitrova, Rector, Dean' },
-                { time: '09:45', task: 'Coffee Break', speaker: null },
-                { time: '10:00', task: 'Masterclass ', speaker: 'Bozidar Spirovski' },
+                { time: '09:30', task: 'Coffee Break', speaker: null },
+                { time: '10:00', task: 'Cyber Future ', speaker: 'Prof. Vesna Dimitrova' },
+                { time: '10:30', task: 'Masterclass ', speaker: 'Bozidar Spirovski' },
                 { time: '12:00', task: 'Lunch Break', speaker: null },
                 { time: '13:00', task: 'Masterclass ', speaker: 'Bozidar Spirovski' },
             ]
@@ -140,7 +149,7 @@ export const CONFIG = {
                 { time: '12:00', task: 'Lunch Break', speaker: null },
                 { time: '13:00', task: 'Masterclass ', speaker: 'Bozidar Spirovski' },
                 { time: '15:00', task: 'Coffee Break', speaker: null },
-                { time: '15:30', task: 'Working in teams', speaker: null },
+                { time: '15:30', task: 'Working in teams', speaker: 'Prof. Guy Gogniat, Prof. Reiner Creutzburg' },
             ]
         },
         {
@@ -152,7 +161,7 @@ export const CONFIG = {
                 { time: '12:00', task: 'Lunch Break', speaker: null },
                 { time: '13:00', task: 'Masterclass ', speaker: 'Bozidar Spirovski' },
                 { time: '15:00', task: 'Coffee Break', speaker: null },
-                { time: '15:30', task: 'Masterclass ', speaker: 'Bozidar Spirovski' },
+                { time: '15:30', task: 'Working in teams', speaker: 'Prof. Hasan Dag, Prof. Reiner Creutzburg' },
                 { time: '20:00', task: 'Social Event at Netaville', speaker: null },
             ]
         },
@@ -165,7 +174,7 @@ export const CONFIG = {
                 { time: '12:00', task: 'Lunch Break', speaker: null },
                 { time: '13:00', task: 'Masterclass ', speaker: 'Bozidar Spirovski' },
                 { time: '15:00', task: 'Coffee Break', speaker: null },
-                { time: '15:30', task: 'Masterclass ', speaker: 'Bozidar Spirovski' },
+                { time: '15:30', task: 'Working in teams', speaker: 'Prof. Guy Gogniat, Prof. Hasan Dag' },
             ]
         },
         {
@@ -174,8 +183,10 @@ export const CONFIG = {
             title: 'Final Presentations & Certificates Awarded',
             sessions: [
                 { time: '09:00', task: 'Building an app for doing encryption over LLM chat channels ', speaker: 'Prof. Danilo Gligoroski' },
-                { time: '11:00', task: 'Coffee Break', speaker: null },
-                { time: '11:30', task: 'Industry Talk ', speaker: 'Ognen Plavevski & Nadica Naumova' },
+                { time: '10:30', task: 'Coffee Break', speaker: null },
+                { time: '11:00', task: 'Identity as Infrastructure: The Self-Sovereign Identity Shift', speaker: 'Ognen Plavevski' },
+                { time: '12:00', task: 'Cybersecurity: Beyond Compliance, Toward Resilience', speaker: 'Nadica Naumova' },
+                { time: '12:30', task: 'Closing ceremony / certificates ', speaker: null },
                 { time: '13:00', task: 'Lunch + Skopje Sightseeing Tour', speaker: null },                
             ]
         },
@@ -183,25 +194,18 @@ export const CONFIG = {
 
         ONLINE: [
         {
-            id: 'day1',
-            title: '26 March, 2026',
+            date: '02 April, 2026',
+            title: 'Fault-Tolerant IoT and Lattice Cryptography',
             sessions: [
                 { time: '15:00', task: 'Opening ', speaker: 'Prof. Vesna Dimitrova' },
-                { time: '15:30', task: 'From a Security Perspective: RAG and Prompt Engineering ', speaker: 'Prof. Hasan Dag' },
+                { time: '15:30', task: 'Analysis of vulnerabilities in communication architectures in systems-on-chip with regard to fault attacks and countermeasure propositions for trusted IoT systems ', speaker: 'Prof. Guy Gogniat' },
+                { time: '17:00', task: 'Break' },
+                { time: '17:30', task: 'Lattice-based cryptographic schemes ', speaker: 'Prof. Sedat Akleylek' },
             ]
         },
         {
-            id: 'Presentation 2',
-            title: '02 April, 2026',
-            sessions: [
-                { time: '15:00', task: 'Analysis of vulnerabilities in communication architectures in systems-on-chip with regard to fault attacks and countermeasure propositions for trusted IoT systems ', speaker: 'Prof. Guy Gogniat' },
-                { time: '16:30', task: 'Break' },
-                { time: '17:00', task: 'Lattice-based cryptographic schemes ', speaker: 'Prof. Sedat Akleylek' },
-            ]
-        },
-        {
-            id: 'day3',
-            title: '09 April, 2026',
+            date: '09 April, 2026',
+            title: 'AI Cybersecurity and Digital Forensics',
             sessions: [
                 { time: '15:00', task: 'AI strengthening Cybersecurity, AI abused for Cyberattacks, and AI threatened by Cyberattacks ', speaker: 'Prof. Ivan Chorbev' },
                 { time: '16:30', task: 'Break' },
@@ -209,27 +213,15 @@ export const CONFIG = {
             ]
         },
         {
-            id: 'day4',
-            title: '17 April, 2026',
+            date: '17 April, 2026',
+            title: 'Smart Encryption and Prompt Engineering',
             sessions: [
                 { time: '15:00', task: 'Blinded Training: Machine Learning over Encrypted Data', speaker: 'Prof. Mawloud Omar' },
-                { time: '16:30', task: 'Closing of Online Sessions' },
+                { time: '16:30', task: 'Break' },
+                { time: '17:00', task: 'From a Security Perspective: RAG and Prompt Engineering ', speaker: 'Prof. Hasan Dag' },
+                { time: '18:30', task: 'Closing of Online Sessions' },
             ]
         },
-        // {
-        //     id: 'day5',
-        //     title: 'AI strengthening Cybersecurity, AI abused for Cyberattacks, and AI threatened by Cyberattacks',
-        //     sessions: [
-        //         { time: '09:00', task: '[TBA]' },
-        //     ]
-        // },
-        //         {
-        //     id: 'day6',
-        //     title: 'Lattice-based cryptographic schemes',
-        //     sessions: [
-        //         { time: '09:00', task: '[TBA]' },
-        //     ]
-        // },
     ],
 
 

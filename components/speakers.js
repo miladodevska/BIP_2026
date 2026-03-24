@@ -6,9 +6,10 @@ const safeExternalHref = (href) => {
 };
 
 export function createSpeakers() {
-  const onlineSpeakers = CONFIG.SPEAKERS.filter(s => s.role === "online");
-  const onSiteSpeakers = CONFIG.SPEAKERS.filter(s => s.role === "on-site");
-
+    const sortByDate = (a, b) => new Date(a.date) - new Date(b.date);  
+    const onlineSpeakers = CONFIG.SPEAKERS.filter(s => s.role === "online").sort(sortByDate);  
+    const onSiteSpeakers = CONFIG.SPEAKERS.filter(s => s.role === "on-site").sort(sortByDate);
+    
 const renderCard = (speaker) => `
   <div class="group bg-white p-6 rounded-[2.5rem] border border-slate-100 shadow-sm hover:shadow-xl hover:-translate-y-2 transition-all duration-300 flex flex-row items-center gap-6 h-full">
       
